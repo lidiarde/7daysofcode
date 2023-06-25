@@ -296,3 +296,30 @@ a:hover {
     padding: 20px 0;
     text-align: center;
 }
+
+@media screen and (max-width: 768px) {
+	.header.header-container {
+		width: 100%;
+		height: 600px;
+		height: 60vh;
+		justify-content: center;
+		margin: auto;
+		background-image: auto;
+		background-size: cover;
+	}
+
+	.main-header {
+		flex-direction: row;
+
+	}
+
+	.nav {
+		flex-direction: row;
+		justify-content: space-around;
+	}
+	.footer {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+	
+}
